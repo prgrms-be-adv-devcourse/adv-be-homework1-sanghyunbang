@@ -1,10 +1,10 @@
-package com.example.homework.service;
+package com.example.homework.order.application;
 
 
 
-import com.example.homework.Repository.OrderJpaRepository;
-import com.example.homework.entity.PurchaseOrder;
-import com.example.homework.entity.PurchaseOrderStatus;
+import com.example.homework.order.infra.persistence.OrderJpaRepository;
+import com.example.homework.order.domain.PurchaseOrder;
+import com.example.homework.order.domain.PurchaseOrderStatus;
 import com.example.homework.entity.ResponseEntity;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;

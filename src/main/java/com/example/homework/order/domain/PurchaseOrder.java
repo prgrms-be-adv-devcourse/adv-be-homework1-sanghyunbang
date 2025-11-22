@@ -1,4 +1,4 @@
-package com.example.homework.entity;
+package com.example.homework.order.domain;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;

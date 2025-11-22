@@ -1,11 +1,9 @@
-package com.example.homework.controller;
+package com.example.homework.order.presentation;
 
-import com.example.homework.entity.PurchaseOrder;
-import com.example.homework.entity.PurchaseOrderStatus;
+import com.example.homework.order.domain.PurchaseOrder;
+import com.example.homework.order.domain.PurchaseOrderStatus;
 import com.example.homework.entity.ResponseEntity;
-import com.example.homework.entity.dto.OrderInfo;
-import com.example.homework.entity.dto.OrderRequest;
-import com.example.homework.service.OrderService;
+import com.example.homework.order.application.OrderService;
 import io.swagger.v3.oas.annotations.Operation;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Pageable;

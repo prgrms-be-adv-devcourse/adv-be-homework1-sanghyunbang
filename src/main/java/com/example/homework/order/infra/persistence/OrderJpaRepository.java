@@ -1,6 +1,6 @@
-package com.example.homework.Repository;
+package com.example.homework.order.infra.persistence;
 
-import com.example.homework.entity.PurchaseOrder;
+import com.example.homework.order.domain.PurchaseOrder;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

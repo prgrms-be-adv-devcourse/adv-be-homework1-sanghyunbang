@@ -1,4 +1,4 @@
-package com.example.homework.entity;
+package com.example.homework.common;
 
 public class ResponseEntity<T> {
     private final int status;
