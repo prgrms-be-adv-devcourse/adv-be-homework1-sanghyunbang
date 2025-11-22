@@ -1,8 +1,8 @@
 package com.example.homework.order.presentation;
 
+import com.example.homework.common.ResponseEntity;
 import com.example.homework.order.domain.PurchaseOrder;
 import com.example.homework.order.domain.PurchaseOrderStatus;
-import com.example.homework.entity.ResponseEntity;
 import com.example.homework.order.application.OrderService;
 import io.swagger.v3.oas.annotations.Operation;
 import org.springframework.beans.factory.annotation.Autowired;
