@@ -1,9 +1,7 @@
 package com.example.homework.order.application.port;
 
 import com.example.homework.order.domain.PurchaseOrder;
-import org.springframework.data.domain.Page;
-import org.springframework.data.domain.Pageable;
-
+import java.util.List;
 import java.util.Optional;
 import java.util.UUID;
 
@@ -15,8 +13,7 @@ import java.util.UUID;
 public interface OrderRepositoryPort {
 
     PurchaseOrder save(PurchaseOrder order);
-
     Optional<PurchaseOrder> findById(UUID id);
-
-    Page<PurchaseOrder> findAll(Pageable pageable);
+    List<PurchaseOrder> findAll(int page, int size);
+    long count();
 }

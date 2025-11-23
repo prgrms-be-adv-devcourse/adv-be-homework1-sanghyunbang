@@ -2,10 +2,10 @@ spring:
   application:
     name: homework
   datasource:
-    url: jdbc:postgresql://localhost:5432/shop_test?currentSchema=public&options=-c%20TimeZone=Asia/Seoul
+    url: jdbc:postgresql://localhost:5432/shop_homework?currentSchema=public&options=-c%20TimeZone=Asia/Seoul
     driver-class-name: org.postgresql.Driver
     username: postgres
-    password:
+    password: popsong3
   jackson:
     time-zone: Asia/Seoul
   jpa:

@@ -14,8 +14,9 @@ public class PurchaseOrder {
     private UUID sellerId;
     private UUID memberId;
     private BigDecimal amount;
+
     private PurchaseOrderStatus status;
-    private LocalDateTime createdAt;
+    private final LocalDateTime createdAt;
     private LocalDateTime updatedAt;
 
     // "도메인 생성 규칙"을 담은 생성자
